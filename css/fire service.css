@@ -1,0 +1,60 @@
+/* CSS Document */
+.fire{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.fire h1{
+	text-align: center;
+	font-size: 3em;
+	padding-top: 50px;
+}
+
+.fire>p{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
+
+.fire ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.fire ul li{
+	width: 30%;
+	height: 250px;
+	margin: 30px 20px;
+	box-shadow: 0px 0px 5px gray;
+}
+
+.fire ul li img{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.fire ul li h2{
+	margin-left: 20px;
+	font-size: 2em;
+}
+
+.fire ul li p{
+	margin-left: 20px;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+@media(max-width:768px){
+	.fire{
+		width: 700px;
+		margin: 0 auto;
+	}
+	.fire ul li{
+		width: 40%;
+		height: 300px;
+		margin: 30px 20px;
+		box-shadow: 0px 0px 5px gray;
+	}
+}

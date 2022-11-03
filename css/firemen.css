@@ -1,0 +1,199 @@
+/* CSS Document */
+.Duties{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.Duties h1{
+	text-align: center;
+	font-size: 3em;
+	padding-top: 50px;
+}
+
+.Duties>p{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
+
+.Duties ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.Duties ul li{
+	width: 30%;
+	height: 500px;
+	position: relative;
+}
+
+.Duties ul li img{
+	width: 300px;
+	margin: 0 auto;
+}
+
+.Duties ul li div:last-of-type{
+	width: 280px;
+	border: 1px solid gray;
+	border-top-color: transparent;
+	transform: translate(10px,-5px);
+	position: absolute;
+}
+
+.Duties ul li div:last-of-type p{
+	margin: 20px 20px;
+	margin-right: 0px;
+}
+
+.manning{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.manning h1{
+	text-align: center;
+	font-size: 3em;
+	padding-top: 50px;
+}
+
+.manning>p{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
+
+.manning>ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.manning ul li{
+	width: 400px;
+	margin: 50px 0;
+	padding: 40px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 10px;
+	transition: 1s ease;
+}
+
+.manning ul li:hover{
+	box-shadow: 0px 0px 5px black;
+}
+
+.manning ul li img{
+	width: 300px;
+}
+
+.manning ul li p{
+	margin-right: 50px;
+	margin-left: 50px;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+@media(max-width:768px){
+	.Duties{
+		width: 700px;
+	}
+
+	.Duties ul li{
+		width: 50%;
+	}
+
+
+	.manning{
+		width: 700px;
+		margin: 0 auto;
+	}
+
+	.manning h1{
+		text-align: center;
+		font-size: 3em;
+		padding-top: 50px;
+	}
+
+	.manning>p{
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 100px;
+	}
+
+	.manning>ul{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	.manning ul li{
+		width: 700px;
+		margin: 20px 0;
+	}
+}
+
+@media(max-width:480px){
+	.Duties{
+		width: 400px;
+	}
+	
+	.Duties h1{
+		font-size: 2em;
+	}
+	.Duties ul{
+		justify-content: center;
+	}
+
+	.Duties ul li{
+		width: 100%;
+	}
+
+	.Duties ul li img{
+		width: 400px;
+		margin: 0 auto;
+	}
+
+	.Duties ul li div:last-of-type{
+		width: 350px;
+		transform: translate(25px,-5px);
+	}
+
+	.Duties ul li div:last-of-type p{
+		margin: 20px 20px;
+		margin-right: 0px;
+	}
+
+	.manning{
+		width: 400px;
+		margin: 0 auto;
+	}
+
+	.manning h1{
+		text-align: center;
+		font-size: 2em;
+		padding-top: 30px;
+	}
+
+	.manning>p{
+		margin-bottom: 20px;
+	}
+
+	.manning>ul{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	.manning ul li{
+		width: 400px;
+		margin: 10px 0;
+	}
+}
